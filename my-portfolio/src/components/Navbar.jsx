@@ -21,6 +21,7 @@ const Navbar = () => {
       }}
       >
       <img src = {logo} alt = "logo" className = "w-9 h-9 object-contain" />
+      <p classname = "text-white text -[18px] font-bold cursor-pointer">Robert <span className = "sm:block hidden">| Portfolio /robertle982@gmail.com</span></p>
       </Link>
     </div>
    </nav>
