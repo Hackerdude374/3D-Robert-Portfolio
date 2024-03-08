@@ -1,5 +1,5 @@
-import { motion } from "framer-motion"; // Importing motion from Framer Motion library
-
+import React from "react";
+import { motion } from "framer-motion";
 import { styles } from "../styles"; // Importing styles
 import { ComputersCanvas } from "./canvas"; // Importing the ComputersCanvas component
 
@@ -20,13 +20,12 @@ const Hero = () => {
         {/* Right column containing main hero text */}
         <div>
           {/* Main heading */}
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#43e0d9]'>Robert</span>
+          <h1 className={`${styles.heroHeadText} text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl`}>
+            Hi, I'm <span className='text-[#43e0d9]'>Robert Le</span>
           </h1>
           {/* Subheading */}
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
+          <p className={`${styles.heroSubText} mt-2 text-white-100 text-sm md:text-base lg:text-lg xl:text-xl`}>
+            I'm a skilled software developer currently pursuing a Bachelor of Science in Computer Science from the City University of New York, College of Staten Island. I specialize in 3D visuals, user interfaces, and web applications.
           </p>
         </div>
       </div>
